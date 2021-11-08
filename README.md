@@ -45,6 +45,19 @@ Use your favorite plugin manager to install this plugin.
 1. Restart Vim, and run the `:call dein#install()` statement to install your plugins.
 </details>
 
+<details>
+<summary>Vim 8 + packages</summary>
+
+If you are using Vim version 8 or higher you can use its built-in package management;
+see `:help packages` for more information.
+Just run these commands in your terminal:
+
+```bash
+git clone https://github.com/solareenlo/vim-normfmt.git ~/.vim/solareenlo/start/vim-normfmt
+vim -u NONE -c "helptags ~/.vim/solareenlo/start/vim-normfmt/doc" -c q
+```
+</details>
+
 
 
 ## License
