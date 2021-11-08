@@ -7,7 +7,7 @@ Vim plugin for [normfmt](https://github.com/solareenlo/normfmt)
 Use your favorite plugin manager to install this plugin.
 
 <details>
-<summary>vim-plug</summary>
+  <summary>vim-plug</summary>
 1. Install [vim-plug](https://github.com/junegunn/vim-plug), according to its instructions.
 1. Add the following text to your `.vimrc`.
     ```vim
@@ -19,7 +19,7 @@ Use your favorite plugin manager to install this plugin.
 </details>
 
 <details>
-<summary>Vundle.vim</summary>
+  <summary>Vundle.vim</summary>
 1. Install [Vundle.vim](https://github.com/VundleVim/Vundle.vim).vim, according to its instructions.
 1. Add the following text to your `.vimrc`.
     ```vim
@@ -31,7 +31,7 @@ Use your favorite plugin manager to install this plugin.
 </details>
 
 <details>
-<summary>dein.vim</summary>
+  <summary>dein.vim</summary>
 1. Install [dein.vim](https://github.com/Shougo/dein.vim), according to its instructions.
 1. Add the following text to your `.vimrc`.
     ```vim
