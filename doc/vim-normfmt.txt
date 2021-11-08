@@ -1,0 +1,38 @@
+*vim-normfmt*                                    Integration of normfmt to Vim.
+
+
+                                 vim-normfmt
+
+
+===============================================================================
+CONTENTS                                                 *vim-normfmt.contents*
+
+  Introduction ................. |vim-normfmt.introduction|
+  Installation ................. |vim-normfmt.installation|
+  Commands ..................... |vim-normfmt.commands|
+
+===============================================================================
+INTRODUCTION                                         *vim-normfmt.introduction*
+
+vim-normfmt is a Vim plugin which integrate normfmt to Vim.
+normfmt is a formatter for Norminette which is the coding style of 42 school.
+
+===============================================================================
+INSTALLATION                                         *vim-normfmt.installation*
+
+Use your favourite package manager, or use Vim's built-in package support.
+
+Vim:~
+>
+  mkdir -p ~/.vim/pack/solareenlo/start
+  cd ~/.vim/pack/solareenlo/start
+  git clone https://github.com/solareenlo/vim-normfmt.git
+  vim -u NONE -c "helptags vim-normfmt/doc" -c q
+<
+
+===============================================================================
+COMMANDS                                                 *vim-normfmt.commands*
+
+:Normfmt      Format the current file.
+
+:Norminette   Get Norminette result in a split.
